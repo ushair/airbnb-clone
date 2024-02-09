@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const Page = () => {
+const Inbox = () => {
   return (
     <View>
-      <Text>Page</Text>
+      <Text>Inbox</Text>
     </View>
   );
 };
 
-export default Page;
+export default Inbox;
