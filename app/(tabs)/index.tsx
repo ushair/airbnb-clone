@@ -3,6 +3,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Stack } from "expo-router";
 import ExploreHeader from "@/components/ExploreHeader";
 import Listings from "@/components/Listings";
+import ListingsMap from "@/components/ListingsMap";
 
 const Page = () => {
   const [category, setCategory] = useState("Tiny homes");
@@ -44,7 +45,8 @@ const Page = () => {
           header: () => <ExploreHeader onCategoryChanged={onDataChanged} />,
         }}
       />
-      <Listings listings={memoizedListingsData} category={category} />
+      {/* <Listings listings={memoizedListingsData} category={category} /> */}
+      <ListingsMap listings={memoizedListingsData} />
     </View>
   );
 };
