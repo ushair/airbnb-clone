@@ -11,11 +11,10 @@ Welcome to the Airbnb Clone React Expo App! This project is a React Native Expo 
 
 ## Screenshots
 
-![Screenshot 1](screenshots/Screenshot1.png)
-![Screenshot 2](screenshots/Screenshot2.png)
-![Screenshot 3](screenshots/Screenshot3.png)
-![Screenshot 4](screenshots/Screenshot4.png)
-![Screenshot 5](screenshots/Screenshot5.png)
+<img src="screenshots/Screenshot1.png" alt="Screenshot 1" width="20%" height="350" > <img src="screenshots/Screenshot2.png" alt="Screenshot 2" width="200" height="350" >
+<img src="screenshots/Screenshot3.png" alt="Screenshot 3" width="20%" height="350" >
+<img src="screenshots/Screenshot4.png" alt="Screenshot 4" width="20%" height="350" >
+<img src="screenshots/Screenshot5.png" alt="Screenshot 5" width="20%" height="350" >
 
 ## Installation
 
