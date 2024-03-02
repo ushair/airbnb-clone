@@ -39,7 +39,7 @@ const Login = () => {
       const { createdSessionId, setActive } = await selectedAuth();
       if (createdSessionId) {
         setActive!({ session: createdSessionId });
-        router.back();
+        router.replace("/");
       }
     } catch (error) {
       console.error("Oauth error: ", error);
