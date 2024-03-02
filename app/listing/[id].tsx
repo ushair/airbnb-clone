@@ -50,13 +50,16 @@ const DetailsPage = () => {
           <TouchableOpacity style={styles.roundButton} onPress={shareListing}>
             <Ionicons name="share-outline" size={22} color={"#000"} />
           </TouchableOpacity>
-          <TouchableOpacity style={styles.roundButton} onPress={shareListing}>
+          <TouchableOpacity style={styles.roundButton}>
             <Ionicons name="heart-outline" size={22} color={"#000"} />
           </TouchableOpacity>
         </View>
       ),
       headerLeft: () => (
-        <TouchableOpacity style={styles.roundButton} onPress={shareListing}>
+        <TouchableOpacity
+          style={styles.roundButton}
+          onPress={() => navigation.goBack()}
+        >
           <Ionicons name="chevron-back" size={22} color={"#000"} />
         </TouchableOpacity>
       ),
